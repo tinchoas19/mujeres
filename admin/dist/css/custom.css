@@ -1,0 +1,31 @@
+.profile-pic-hover
+{
+	text-align: center;
+	display:none;
+	padding-top: 40%;
+	top: -90px;
+	position: relative;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color:rgba(119, 119, 119, 0.68);
+	color: white; 
+	vertical-align: middle;
+	text-decoration: underline;
+	cursor: pointer;
+
+}
+.profile-pic-hover a,
+.profile-pic-hover a:hover
+{
+	color: white;
+}
+.widget-user .widget-user-image > img
+{
+	width: 90px!important;
+	height: 90px!important;
+}
+a[href="https://froala.com/wysiwyg-editor"] 
+{ 
+	display: none!important; 
+}
